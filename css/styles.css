@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxNav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+
+ul.boxNav li a {
+    padding: 7px;
+    text-decoration: none;
+    color: #F3F3F3;
+} 
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #E5E5E5;
+padding: 30px 40px;
+}
+
+.box {
+    height: 350px;
+    width: 490px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.podioBox {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: red;  
+}
+
+span {
+    color: white;
+}
+
+.delivery {
+    background-image: url(../img/delivery.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+
+.podio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.container div.box.podioBox h2 {
+    text-align: center;
+}
+
+div.container div.box.podioBox div.podio h3 {
+    padding: 58px 0px 15px 69px;
+}
+
+div.container div.box.podioBox div.podio ol li {
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+div.container div.box.podioBox div.podio img.ingredientesPizza {
+    position: absolute;
+    right: 74px;
+    top: 89px;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+footer nav ul.navFooter {
+    padding-left: 0px;
+}
+
+footer nav ul.navFooter li {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 5px
+}
+
+footer nav ul.navFooter li a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+/* footer img.logo2 {
+   padding: 20px
+} */
